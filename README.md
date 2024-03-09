@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+Assignment Overview:
+Weather Website with ReactJS with Tomorrow.io API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Title: My-Weather
 
-## Available Scripts
+Description:
+The React Weather Forecast Website is a web application built using ReactJS and Tomorrow.io API to provide real-time and forecasted weather information. The website allows users to access up-to-date weather data for their desired locations with a user-friendly interface.
 
-In the project directory, you can run:
+Key Features:
 
-### `npm start`
+-Real-time Weather Data: Utilizing the Tomorrow.io API, the website displays current weather conditions such as temperature, humidity, wind speed, and precipitation for the selected location.
+-Forecasted Weather: Users can also view the forecasted weather for the upcoming days, including hourly and daily forecasts.
+-Location Search: The website offers a search functionality that allows users to easily find weather information for any location worldwide.
+-Responsive Design: The website is designed to be responsive and accessible across various devices, including desktops, tablets, and smartphones.
+-Interactive UI: Users can interact with the weather data through intuitive UI elements such as charts, graphs, and dynamic animations.
+-Customization Options: Users can customize their weather experience by choosing between different units of measurement (e.g., Celsius or Fahrenheit for temperature) and viewing options (e.g., map overlays).
+-Error Handling: The website includes error handling mechanisms to gracefully handle situations such as invalid location inputs or API request failures.
+-Optimized Performance: The application is optimized for performance, ensuring fast loading times and smooth user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+How to Run the Application:
 
-### `npm test`
+Clone the Repository: Go to the GitHub page of the React project you want to download. Find the green "Code" button and click on it. Then select "Download ZIP". Alternatively, you can copy the repository URL and use Git to clone it to your local machine by running:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone <repository_url>
+Navigate to the Project Directory: Once the repository is downloaded, unzip it if you downloaded it as a ZIP file. Then, open a terminal or command prompt and navigate to the directory of the project using the cd command. For example:
 
-### `npm run build`
+cd path/to/project
+Install Dependencies: Most React projects come with dependencies that need to be installed before running the project. In the project directory, run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This command will install all the dependencies listed in the package.json file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the Development Server: After installing the dependencies, you can start the development server. Typically, React projects come with a script to do this. Run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
+This command will start the development server and automatically open your default web browser to view the project. If it doesn't, you can access it by navigating to http://localhost:3000 in your web browser.
 
-### `npm run eject`
+View the Project: Once the development server is running, you should see the React project running in your web browser. Any changes you make to the code will be automatically reflected in the browser without needing to refresh the page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+That's it! You've successfully downloaded a React GitHub project and ran it locally on your machine.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project has been deployed to github pages can be directly opened - Link - https://rahidkhan28.github.io/My-Weather/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+--IMPORTANT--
+-The website is encountering a problem where it gets stuck on the loading screen after you enter the location and initiate the search. This happens because the number of API requests has exceeded the limit allowed. You'll need to wait for some time and try again later.
